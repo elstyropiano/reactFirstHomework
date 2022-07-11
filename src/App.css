@@ -1,0 +1,288 @@
+.aboutMeContent {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.addLogoTextDiv {
+  display: flex;
+  box-sizing: border-box;
+  padding: 0 10px;
+  width: 100%;
+}
+
+.activeButton {
+  background-color: lightgreen;
+}
+
+.addLogoTextDiv input {
+  min-width: 250px;
+}
+
+body {
+  background-color: #e0dedb;
+}
+
+button {
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-left: 10px;
+  padding: 10px 20px;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+button:disabled {
+  background-color: #a9a7a7;
+  color: azure;
+}
+button:disabled:hover {
+  transform: none;
+}
+
+.charactersMainWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px;
+}
+
+.changeLogoDiv {
+  margin: 5px 10px;
+  width: 100%;
+}
+
+.contactDiv {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.content {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  width: 100%;
+}
+.dataUnderApiImg {
+  align-items: center;
+  border: 1px solid black;
+  border-top: none;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  min-height: 180px;
+}
+
+.dataUnderApiImg span {
+  font-weight: 500;
+  padding: 2px;
+}
+.dataUnderApiImg div {
+  padding: 2px;
+  width: 100%;
+}
+
+.dataUnderApiImg div span {
+  margin: 0 10px;
+}
+.description {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.divUnderTextarea {
+  display: flex;
+  margin-top: 5px;
+}
+.divForButtons {
+  padding: 10px;
+}
+.divForDeleteButtonFromList {
+  display: inline-block;
+  height: inherit;
+  vertical-align: bottom;
+}
+
+.divForMessage {
+  margin-top: 10px;
+  max-width: 600px;
+}
+.divForMessage div {
+  margin-top: 10px;
+  overflow-wrap: break-word;
+  width: 600px;
+}
+.divForMessage div span {
+  font-weight: 600;
+}
+.divImageAboutMe {
+  display: flex;
+  height: 100%;
+  flex: 1;
+  justify-content: center;
+}
+.divImageAboutMe img {
+  min-width: 673px;
+}
+.divTodoInputAndButton {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+.divTodoInputAndButton input {
+  width: 50vw;
+}
+.divWarningText {
+  color: red;
+  display: flex;
+  width: 100%;
+}
+.divWarningText p {
+  margin: 10px 20px;
+}
+
+.imageAndDecription {
+  box-sizing: border-box;
+  display: flex;
+  height: 60vh;
+  margin: 50px 0;
+  padding: 0 40px;
+  width: 100%;
+}
+input {
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 10px;
+}
+
+li button {
+  background-color: red;
+  margin: 0 10px;
+}
+li {
+  margin: 20px 0;
+}
+
+.listTodo {
+  display: flex;
+  font-size: 30px;
+  width: 80vw;
+  word-break: break-word;
+}
+
+.logo {
+  align-items: center;
+  background-color: #e0dedb;
+  border-top-right-radius: 50px;
+  display: flex;
+  font-size: 25px;
+  height: 100%;
+  justify-content: center;
+  padding: 15px 20px;
+  text-transform: uppercase;
+}
+.navBar {
+  align-items: center;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+}
+.navButton {
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 0 5px;
+  padding: 20px 20px;
+  min-width: 120px;
+}
+
+.navButton:hover {
+  transform: scale(1.1);
+}
+
+.singleCharacterWrapper {
+  margin: 0 20px 20px 0;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+}
+.todoDiv {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+textarea {
+  resize: none;
+  height: 40vh;
+  width: 600px;
+  font-size: 18px;
+}
+
+.todoInput {
+  width: 30vw;
+}
+
+@media only screen and (max-width: 1000px) {
+  .aboutMeContent {
+    justify-content: center;
+  }
+  .addLogoTextDiv {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .addLogoTextDiv button {
+    margin: 10px 0 0 0;
+  }
+  .divForButtons {
+    display: flex;
+    flex-direction: column;
+  }
+  .divForMessage div {
+    max-width: 400px;
+  }
+  .divImageAboutMe img {
+    max-width: 400px;
+    min-width: 400px;
+  }
+  .divUnderTextarea {
+    flex-direction: column;
+  }
+  .divUnderTextarea button {
+    margin: 10px 0 0 0;
+  }
+  .divUnderTextarea input {
+    margin: 10px 0 0 0;
+  }
+  .divWarningText {
+    justify-content: center;
+  }
+  .imageAndDecription {
+    flex-direction: column;
+  }
+  .navButton {
+    margin-bottom: 5px;
+  }
+  textarea {
+    width: 400px;
+  }
+}

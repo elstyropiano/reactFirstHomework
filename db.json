@@ -1,0 +1,36 @@
+{
+  "buttons": [
+    {
+      "id": 1,
+      "name":"About Me",
+      "color":"#add8e6"
+      
+    },
+    {
+      "id": 2,
+      "name":"Characters",
+      "color":"#e6adbc"
+    },
+    {
+      "id": 3,
+      "name":"Todo",
+      "color":"#d7ade6"
+    },
+    {
+      "id": 4,
+      "name":"Contact",
+      "color":"#bce6ad"
+    }
+  ],
+
+  "personalData": 
+
+    {
+      "id": 1,
+      "name":"Pasi",
+      "lastName":"Konik",
+      "description":"Lubie se kicać po łące o tak : KICU KICU "
+
+    }   
+  
+}
